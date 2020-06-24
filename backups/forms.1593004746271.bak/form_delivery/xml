@@ -1208,28 +1208,28 @@
         <root>
           <item>
             <itextId>static_instance-babies_alive-0</itextId>
-            <count>0</count>
             <name>0</name>
+            <count>0</count>
           </item>
           <item>
             <itextId>static_instance-babies_alive-1</itextId>
-            <count>1</count>
             <name>1</name>
+            <count>1</count>
           </item>
           <item>
             <itextId>static_instance-babies_alive-2</itextId>
-            <count>2</count>
             <name>2</name>
+            <count>2</count>
           </item>
           <item>
             <itextId>static_instance-babies_alive-3</itextId>
-            <count>3</count>
             <name>3</name>
+            <count>3</count>
           </item>
           <item>
             <itextId>static_instance-babies_alive-4</itextId>
-            <count>4</count>
             <name>other</name>
+            <count>4</count>
           </item>
         </root>
       </instance>
@@ -1293,28 +1293,28 @@
         <root>
           <item>
             <itextId>static_instance-pnc_visits-0</itextId>
-            <count>0</count>
             <name>within_24_hrs</name>
+            <count>0</count>
           </item>
           <item>
             <itextId>static_instance-pnc_visits-1</itextId>
-            <count>3</count>
             <name>3_days</name>
+            <count>3</count>
           </item>
           <item>
             <itextId>static_instance-pnc_visits-2</itextId>
-            <count>7</count>
             <name>7_days</name>
+            <count>7</count>
           </item>
           <item>
             <itextId>static_instance-pnc_visits-3</itextId>
-            <count>42</count>
             <name>6_weeks</name>
+            <count>42</count>
           </item>
           <item>
             <itextId>static_instance-pnc_visits-4</itextId>
-            <count>0</count>
             <name>none</name>
+            <count>0</count>
           </item>
         </root>
       </instance>

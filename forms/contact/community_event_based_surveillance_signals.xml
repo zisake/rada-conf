@@ -1,0 +1,510 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Community_Event_Based_Surveillance_Signals</h:title>
+    <model>
+      <itext>
+        <translation lang="eng">
+          <text id="/data/Menu_1/10:label">
+            <value>A respiratory illness (hotness of the body, cough or difficulty in breathing) in a person who has had a recent close contact with a person confirmed or suspected to be having COVID-19.</value>
+          </text>
+          <text id="/data/Menu_1/1:label">
+            <value>Two or more people alive or dead presenting with similar signs and symptoms in a community within a week</value>
+          </text>
+          <text id="/data/Menu_1/2:label">
+            <value>Any child less than 15 years with a sudden onset of weakness of the limb/s not due to injury</value>
+          </text>
+          <text id="/data/Menu_1/3:label">
+            <value>Any person 5 years of age or more with lots of watery diarrhea</value>
+          </text>
+          <text id="/data/Menu_1/4:label">
+            <value>One or more community human deaths due to unknown cause</value>
+          </text>
+          <text id="/data/Menu_1/5:label">
+            <value>Increased sickness and/or deaths of animals wild or domestic and poultry/ birds or fish)</value>
+          </text>
+          <text id="/data/Menu_1/6:label">
+            <value>Any person who has been bitten by an animal</value>
+          </text>
+          <text id="/data/Menu_1/7:label">
+            <value>Any threat that causes public health anxiety/concern</value>
+          </text>
+          <text id="/data/Menu_1/8:label">
+            <value>Respiratory illness in a recent local (cross county border) or international (cross national border) traveler.</value>
+          </text>
+          <text id="/data/Menu_1/9:label">
+            <value>Two or more cases with a Respiratory illness (hotness of the body, cough or difficulty in breathing) in the same village or social group within one week.</value>
+          </text>
+          <text id="/data/Menu_10/1:label">
+            <value>At work</value>
+          </text>
+          <text id="/data/Menu_10/2:label">
+            <value>In Public Transport</value>
+          </text>
+          <text id="/data/Menu_10/3:label">
+            <value>In Private Transport</value>
+          </text>
+          <text id="/data/Menu_10/4:label">
+            <value>At Home</value>
+          </text>
+          <text id="/data/Menu_10/5:label">
+            <value>When out visiting</value>
+          </text>
+          <text id="/data/Menu_10:label">
+            <value>Menu 10</value>
+          </text>
+          <text id="/data/Menu_1:label">
+            <value>Menu 1 Signal</value>
+          </text>
+          <text id="/data/Menu_1a/1:label">
+            <value>Village</value>
+          </text>
+          <text id="/data/Menu_1a/2:label">
+            <value>Estate</value>
+          </text>
+          <text id="/data/Menu_1a/3:label">
+            <value>School</value>
+          </text>
+          <text id="/data/Menu_1a/4:label">
+            <value>Other institution</value>
+          </text>
+          <text id="/data/Menu_1a/5:label">
+            <value>Market</value>
+          </text>
+          <text id="/data/Menu_1a/6:label">
+            <value>Community gathering</value>
+          </text>
+          <text id="/data/Menu_1a:label">
+            <value>Menu 1a</value>
+          </text>
+          <text id="/data/Menu_1b/1:label">
+            <value>Wedding</value>
+          </text>
+          <text id="/data/Menu_1b/2:label">
+            <value>Funeral</value>
+          </text>
+          <text id="/data/Menu_1b/3:label">
+            <value>Other</value>
+          </text>
+          <text id="/data/Menu_1b:label">
+            <value>Menu 1b</value>
+          </text>
+          <text id="/data/Menu_5/1:label">
+            <value>Wild</value>
+          </text>
+          <text id="/data/Menu_5/2:label">
+            <value>Domestic</value>
+          </text>
+          <text id="/data/Menu_5/3:label">
+            <value>Poultry</value>
+          </text>
+          <text id="/data/Menu_5/4:label">
+            <value>Birds</value>
+          </text>
+          <text id="/data/Menu_5/5:label">
+            <value>Fish</value>
+          </text>
+          <text id="/data/Menu_5:label">
+            <value>Menu 5</value>
+          </text>
+          <text id="/data/Menu_6/1:label">
+            <value>Sick looking Dog</value>
+          </text>
+          <text id="/data/Menu_6/2:label">
+            <value>Sick looking Cat</value>
+          </text>
+          <text id="/data/Menu_6/3:label">
+            <value>Snake</value>
+          </text>
+          <text id="/data/Menu_6/4:label">
+            <value>Other animal</value>
+          </text>
+          <text id="/data/Menu_6:label">
+            <value>Menu 6</value>
+          </text>
+          <text id="/data/Menu_7/1:label">
+            <value>Contaminated food products</value>
+          </text>
+          <text id="/data/Menu_7/2:label">
+            <value>Contaminated water</value>
+          </text>
+          <text id="/data/Menu_7/3:label">
+            <value>Flooding or other environmental hazard</value>
+          </text>
+          <text id="/data/Menu_7/4:label">
+            <value>Chemical threats</value>
+          </text>
+          <text id="/data/Menu_7/5:label">
+            <value>Radio nuclear threats.</value>
+          </text>
+          <text id="/data/Menu_7:label">
+            <value>Menu 7</value>
+          </text>
+          <text id="/data/Menu_8/1:label">
+            <value>Hotness of the body</value>
+          </text>
+          <text id="/data/Menu_8/2:label">
+            <value>Cough</value>
+          </text>
+          <text id="/data/Menu_8/3:label">
+            <value>Difficulty in breathing</value>
+          </text>
+          <text id="/data/Menu_8:label">
+            <value>Menu 8</value>
+          </text>
+          <text id="/data/Menu_8a/1:label">
+            <value>Hotness of the body and cough</value>
+          </text>
+          <text id="/data/Menu_8a/2:label">
+            <value>Hotness of the body and difficulty breathing</value>
+          </text>
+          <text id="/data/Menu_8a/3:label">
+            <value>Cough and difficulty breathing</value>
+          </text>
+          <text id="/data/Menu_8a:label">
+            <value>Menu 8a</value>
+          </text>
+          <text id="/data/Menu_8b/1:label">
+            <value>Hotness of the body and cough</value>
+          </text>
+          <text id="/data/Menu_8b/2:label">
+            <value>Hotness of the body and difficulty breathing</value>
+          </text>
+          <text id="/data/Menu_8b/3:label">
+            <value>Cough and difficulty breathing</value>
+          </text>
+          <text id="/data/Menu_8b:label">
+            <value>Menu 8b</value>
+          </text>
+          <text id="/data/Menu_8c/1:label">
+            <value>Hotness of the body and cough</value>
+          </text>
+          <text id="/data/Menu_8c/2:label">
+            <value>Hotness of the body and difficulty breathing</value>
+          </text>
+          <text id="/data/Menu_8c/3:label">
+            <value>Cough and difficulty breathing</value>
+          </text>
+          <text id="/data/Menu_8c:label">
+            <value>Menu 8c</value>
+          </text>
+          <text id="/data/Menu_9/1:label">
+            <value>Village</value>
+          </text>
+          <text id="/data/Menu_9/2:label">
+            <value>Family</value>
+          </text>
+          <text id="/data/Menu_9/3:label">
+            <value>School</value>
+          </text>
+          <text id="/data/Menu_9/4:label">
+            <value>Workplace</value>
+          </text>
+          <text id="/data/Menu_9/5:label">
+            <value>Social function</value>
+          </text>
+          <text id="/data/Menu_9/6:label">
+            <value>Estate</value>
+          </text>
+          <text id="/data/Menu_9:label">
+            <value>Menu 9</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <data delimiter="#" id="Community_Event_Based_Surveillance_Signals" prefix="J1!Community_Event_Based_Surveillance_Signals!">
+          <Menu_1/>
+          <Menu_1a/>
+          <Menu_1b/>
+          <Menu_5/>
+          <Menu_6/>
+          <Menu_7/>
+          <Menu_8/>
+          <Menu_8a/>
+          <Menu_8b/>
+          <Menu_8c/>
+          <Menu_9/>
+          <Menu_10/>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </data>
+      </instance>
+      <bind nodeset="/data/Menu_1" required="true()" type="select1"/>
+      <bind nodeset="/data/Menu_1a" relevant=" /data/Menu_1 ='1'" type="select1"/>
+      <bind nodeset="/data/Menu_1b" relevant=" /data/Menu_1a ='6'" type="select1"/>
+      <bind nodeset="/data/Menu_5" relevant=" /data/Menu_1 ='5'" type="select1"/>
+      <bind nodeset="/data/Menu_6" relevant=" /data/Menu_1 ='6'" type="select1"/>
+      <bind nodeset="/data/Menu_7" relevant=" /data/Menu_1 ='7'" type="select1"/>
+      <bind nodeset="/data/Menu_8" relevant=" /data/Menu_1 ='8'" type="select1"/>
+      <bind nodeset="/data/Menu_8a" relevant=" /data/Menu_8 ='1'" type="select1"/>
+      <bind nodeset="/data/Menu_8b" relevant=" /data/Menu_8 ='2'" type="select1"/>
+      <bind nodeset="/data/Menu_8c" relevant=" /data/Menu_8 ='3'" type="select1"/>
+      <bind nodeset="/data/Menu_9" relevant=" /data/Menu_1 ='9'" type="select1"/>
+      <bind nodeset="/data/Menu_10" relevant=" /data/Menu_1 ='10'" type="select1"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/data/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <select1 ref="/data/Menu_1">
+      <label ref="jr:itext('/data/Menu_1:label')"/>
+      <item>
+        <label ref="jr:itext('/data/Menu_1/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_1/2:label')"/>
+        <value>2</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_1/3:label')"/>
+        <value>3</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_1/4:label')"/>
+        <value>4</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_1/5:label')"/>
+        <value>5</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_1/6:label')"/>
+        <value>6</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_1/7:label')"/>
+        <value>7</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_1/8:label')"/>
+        <value>8</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_1/9:label')"/>
+        <value>9</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_1/10:label')"/>
+        <value>10</value>
+      </item>
+    </select1>
+    <select1 ref="/data/Menu_1a">
+      <label ref="jr:itext('/data/Menu_1a:label')"/>
+      <item>
+        <label ref="jr:itext('/data/Menu_1a/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_1a/2:label')"/>
+        <value>2</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_1a/3:label')"/>
+        <value>3</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_1a/4:label')"/>
+        <value>4</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_1a/5:label')"/>
+        <value>5</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_1a/6:label')"/>
+        <value>6</value>
+      </item>
+    </select1>
+    <select1 ref="/data/Menu_1b">
+      <label ref="jr:itext('/data/Menu_1b:label')"/>
+      <item>
+        <label ref="jr:itext('/data/Menu_1b/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_1b/2:label')"/>
+        <value>2</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_1b/3:label')"/>
+        <value>3</value>
+      </item>
+    </select1>
+    <select1 ref="/data/Menu_5">
+      <label ref="jr:itext('/data/Menu_5:label')"/>
+      <item>
+        <label ref="jr:itext('/data/Menu_5/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_5/2:label')"/>
+        <value>2</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_5/3:label')"/>
+        <value>3</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_5/4:label')"/>
+        <value>4</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_5/5:label')"/>
+        <value>5</value>
+      </item>
+    </select1>
+    <select1 ref="/data/Menu_6">
+      <label ref="jr:itext('/data/Menu_6:label')"/>
+      <item>
+        <label ref="jr:itext('/data/Menu_6/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_6/2:label')"/>
+        <value>2</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_6/3:label')"/>
+        <value>3</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_6/4:label')"/>
+        <value>4</value>
+      </item>
+    </select1>
+    <select1 ref="/data/Menu_7">
+      <label ref="jr:itext('/data/Menu_7:label')"/>
+      <item>
+        <label ref="jr:itext('/data/Menu_7/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_7/2:label')"/>
+        <value>2</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_7/3:label')"/>
+        <value>3</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_7/4:label')"/>
+        <value>4</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_7/5:label')"/>
+        <value>5</value>
+      </item>
+    </select1>
+    <select1 ref="/data/Menu_8">
+      <label ref="jr:itext('/data/Menu_8:label')"/>
+      <item>
+        <label ref="jr:itext('/data/Menu_8/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_8/2:label')"/>
+        <value>2</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_8/3:label')"/>
+        <value>3</value>
+      </item>
+    </select1>
+    <select1 ref="/data/Menu_8a">
+      <label ref="jr:itext('/data/Menu_8a:label')"/>
+      <item>
+        <label ref="jr:itext('/data/Menu_8a/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_8a/2:label')"/>
+        <value>2</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_8a/3:label')"/>
+        <value>3</value>
+      </item>
+    </select1>
+    <select1 ref="/data/Menu_8b">
+      <label ref="jr:itext('/data/Menu_8b:label')"/>
+      <item>
+        <label ref="jr:itext('/data/Menu_8b/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_8b/2:label')"/>
+        <value>2</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_8b/3:label')"/>
+        <value>3</value>
+      </item>
+    </select1>
+    <select1 ref="/data/Menu_8c">
+      <label ref="jr:itext('/data/Menu_8c:label')"/>
+      <item>
+        <label ref="jr:itext('/data/Menu_8c/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_8c/2:label')"/>
+        <value>2</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_8c/3:label')"/>
+        <value>3</value>
+      </item>
+    </select1>
+    <select1 ref="/data/Menu_9">
+      <label ref="jr:itext('/data/Menu_9:label')"/>
+      <item>
+        <label ref="jr:itext('/data/Menu_9/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_9/2:label')"/>
+        <value>2</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_9/3:label')"/>
+        <value>3</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_9/4:label')"/>
+        <value>4</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_9/5:label')"/>
+        <value>5</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_9/6:label')"/>
+        <value>6</value>
+      </item>
+    </select1>
+    <select1 ref="/data/Menu_10">
+      <label ref="jr:itext('/data/Menu_10:label')"/>
+      <item>
+        <label ref="jr:itext('/data/Menu_10/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_10/2:label')"/>
+        <value>2</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_10/3:label')"/>
+        <value>3</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_10/4:label')"/>
+        <value>4</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Menu_10/5:label')"/>
+        <value>5</value>
+      </item>
+    </select1>
+  </h:body>
+</h:html>
